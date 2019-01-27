@@ -47,9 +47,10 @@ public class ReferenceImplGUI extends JFrame {
 
 	public void updateLAF() {
 		this.dispose();
-		this.setVisible(true);
 		SwingUtilities.updateComponentTreeUI(this);
 		this.pack();
+		this.setSize(getWidth() + 20, getHeight());
+		this.setVisible(true);
 	}
 
 	public ReferenceImplGUI() {
