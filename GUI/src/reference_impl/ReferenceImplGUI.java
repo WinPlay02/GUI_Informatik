@@ -53,7 +53,7 @@ public class ReferenceImplGUI extends JFrame {
 	}
 
 	public ReferenceImplGUI() {
-		setTitle("Referenz-Implementationen");
+		setTitle("Referenz-Implementationen (Pr\u00E4sentationsmanager)");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 552, 300);
 		contentPane = new JPanel();
@@ -64,7 +64,7 @@ public class ReferenceImplGUI extends JFrame {
 		setLocationRelativeTo(null);
 		setLocation(getLocation().x + 250, getLocation().y + 250);
 
-		JLabel lblBeispielprogramm = new JLabel("Beispielprogramm");
+		JLabel lblBeispielprogramm = new JLabel("Beispielprogramme");
 		lblBeispielprogramm.setFont(new Font("Tahoma", Font.BOLD, 16));
 		contentPane.add(lblBeispielprogramm, BorderLayout.NORTH);
 
